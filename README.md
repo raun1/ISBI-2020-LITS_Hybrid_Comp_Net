@@ -39,7 +39,7 @@
 
 ### The function def find_min_and_max(img) in line 25 is the fuction which actually does the left and right range selections and can be reused as desired.
 
-## Please note that the green sigmoid in the image should be an concatenation. We simply concatenate the pairwise addition of the intermediate branches and then send that whole concatenation (NO SIGMOID on it) to the reconstruction branch
+
 
 ## 2D Network to segment liver region and also to predict large tumors 
 

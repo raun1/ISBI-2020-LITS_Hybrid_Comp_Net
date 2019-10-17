@@ -43,11 +43,15 @@
 
 ## 2D Network to segment liver region and also to predict large tumors 
 
-### This network is based on the idea of the Complementary Networks presented in the paper here - https://arxiv.org/abs/1804.00521. The exact architecture details are mentioned in the paper - https://arxiv.org/pdf/1909.04797.pdf in section 2.3
+### This network is based on the idea of the Complementary Networks presented in the paper here - https://arxiv.org/abs/1804.00521. The exact architecture details are mentioned in the paper - https://arxiv.org/pdf/1909.04797.pdf in section 2.3. The Tumor detection Networks has to be compiled and trained twice.
+* The 2D CompNet for the liver segmentation is trained for 40 epochs using the Adam optimizer with a learning rate of 5e-5
+* Train the networks using the Adam optimizer with a learning rate of 5e-5, and having an early stopping scheme with the tolerance being set to 5; then we train the networks with a learning rate of 1e-6 using an early stopping with a tolerance of 10 trials. Both steps have 150 maximum number of epochs for training.
 
 ## 3D Network to segment small tumors
 
-### This network is a 3d version of the same comp net working on small 3D patches and exact details of the architecture is mentioned in section 2.3 in https://arxiv.org/pdf/1909.04797.pdf
+### This network is a 3d version of the same comp net working on small 3D patches and exact details of the architecture is mentioned in section 2.3 in https://arxiv.org/pdf/1909.04797.pdf. The Tumor detection Networks has to be compiled and trained twice.
+
+* Train the network using the Adam optimizer with a learning rate of 5e-5, and having an early stopping scheme with the tolerance being set to 5; then we train the networks with a learning rate of 1e-6 using an early stopping with a tolerance of 10 trials. Both steps have 150 maximum number of epochs for training.
 
 
 email me - rd31879@uga.edu for any questions !! Am happy to discuss 

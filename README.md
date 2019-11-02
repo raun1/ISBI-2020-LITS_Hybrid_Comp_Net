@@ -23,12 +23,12 @@
 
 ### When the code is run it will pop up an Intensity Distribution and the aim is to select the rightmost peak of the graph as shown below -
 
-![alt text](https://github.com/raun1/LITS_Hybrid_Comp_Net/fig/img_1.PNG)
+![alt text](https://github.com/raun1/LITS_Hybrid_Comp_Net/tree/master/fig/img1.PNG)
 
 
 ### The following images show the preprocessed files resulting from this method - 
 
-![alt text](https://github.com/raun1/LITS_Hybrid_Comp_Net/fig/img_2.PNG)
+![alt text](https://github.com/raun1/LITS_Hybrid_Comp_Net/tree/master/fig/img2.PNG)
 
 
 ### You will notice that the rightmost peak intensity varies across the subject and this is expected.

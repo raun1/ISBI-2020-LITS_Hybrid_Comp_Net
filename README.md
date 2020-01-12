@@ -53,6 +53,8 @@
 
 * Train the network using the Adam optimizer with a learning rate of 5e-5, and having an early stopping scheme with the tolerance being set to 5; then we train the networks with a learning rate of 1e-6 using an early stopping with a tolerance of 10 trials. Both steps have 150 maximum number of epochs for training.
 
+## Score of Test Set from LiTS website -
+![alt text](https://github.com/raun1/LITS_Hybrid_Comp_Net/blob/master/fig/score_lits_website.PNG)
 
 email me - rd31879@uga.edu for any questions !! Am happy to discuss 
 

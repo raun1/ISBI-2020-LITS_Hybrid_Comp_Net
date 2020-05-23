@@ -246,7 +246,7 @@ def Comp_U_Net(input_shape,learn_rate=1e-3):
     
     conv9a = bn()(conv9a)
 
-    conv9b = Conv2D(12, (kernel_size, kernel_size), activation='relu', padding='same',
+    conv9b = Conv2D(32, (kernel_size, kernel_size), activation='relu', padding='same',
                    kernel_regularizer=regularizers.l2(l2_lambda) )(conv9a)
 
     conv9b = bn()(conv9b)
